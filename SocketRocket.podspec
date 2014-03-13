@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name               = "SocketRocket"
-  s.version            = '0.3.1-beta2'
+  s.version            = '0.3.1-beta3'
   s.summary            = 'A conforming WebSocket (RFC 6455) client library.'
-  s.homepage           = 'https://github.com/square/SocketRocket'
+  s.homepage           = 'https://github.com/huuhoa/SocketRocket'
   s.authors            = 'Square'
   s.license            = 'Apache License, Version 2.0'
-  s.source             = { :git => 'https://github.com/square/SocketRocket.git', :commit => '82c9f8938f8b9b7aa578866cb7ce56bc11e52ced' }
+  s.source             = { :git => 'https://github.com/huuhoa/SocketRocket.git', :commit => '2a78da4f3465cd4f361b394e7712d307ab181212' }
   s.source_files       = 'SocketRocket/*.{h,m,c}'
   s.requires_arc       = true
   s.ios.frameworks     = %w{CFNetwork Security}
